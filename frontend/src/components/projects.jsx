@@ -43,7 +43,7 @@ export default function Projects() {
       <div className="max-w-7xl mx-auto px-6">
         {" "}
         <h2 className="text-4xl font-bold mb-10">Featured Projects</h2>
-        ```
+        
         <div
           className="
         flex
