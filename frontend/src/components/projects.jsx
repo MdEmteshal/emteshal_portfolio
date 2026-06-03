@@ -1,5 +1,5 @@
 import testseries from "../assets/testseries.png";
-import portfolioImage from "../assets/portfolio.png";
+import portfolioImage from "../../public/portfolio.png";
 
 export default function Projects() {
   const projects = [
