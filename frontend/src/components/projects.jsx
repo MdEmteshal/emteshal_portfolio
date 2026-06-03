@@ -1,4 +1,5 @@
 import testseries from "../assets/testseries.png";
+import portfolioImage from "../assets/portfolio.png";
 
 export default function Projects() {
   const projects = [
@@ -14,8 +15,8 @@ export default function Projects() {
     {
       id: 2,
       title: "Portfolio Website",
-      image: testseries,
-      tech: "React • Tailwind CSS",
+      image: portfolioImage,
+      tech: "React • Tailwind CSS • Nodejs+Expressjs • MongoDB",
       description: "Personal portfolio website showcasing projects and skills.",
     },
     {
