@@ -27,6 +27,14 @@ export default function Projects() {
       description:
         "Dashboard for monitoring website performance and SEO metrics.",
     },
+     {
+      id: 4,
+      title: "School Managements System",
+      image: testseries,
+      tech: "Full Stack ",
+      description:
+        "Dashboard for monitoring website performance and SEO metrics.",
+    },
   ];
 
   return (
