@@ -24,7 +24,7 @@ export default function Hero() {
             </button>
 
             <a
-              href="/resume.jpg"
+              href="/resume.pdf"
               download
               className="border border-blue-600 px-6 py-3 rounded-xl download inline-block"
             >
