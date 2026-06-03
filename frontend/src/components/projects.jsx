@@ -16,7 +16,7 @@ export default function Projects() {
       id: 2,
       title: "Portfolio Website",
       image: portfolioImage,
-      tech: "React • Tailwind CSS • Nodejs+Expressjs • MongoDB",
+      tech: "React • Tailwind CSS",
       description: "Personal portfolio website showcasing projects and skills.",
     },
     {
@@ -27,11 +27,11 @@ export default function Projects() {
       description:
         "Dashboard for monitoring website performance and SEO metrics.",
     },
-     {
+    {
       id: 4,
-      title: "School Managements System",
+      title: "SEO Dashboard",
       image: testseries,
-      tech: "Full Stack ",
+      tech: "SEO • Analytics",
       description:
         "Dashboard for monitoring website performance and SEO metrics.",
     },
@@ -43,7 +43,6 @@ export default function Projects() {
       <div className="max-w-7xl mx-auto px-6">
         {" "}
         <h2 className="text-4xl font-bold mb-10">Featured Projects</h2>
-        
         <div
           className="
         flex
@@ -59,17 +58,17 @@ export default function Projects() {
             <div
               key={project.id}
               className="
-            min-w-[350px]
-            md:min-w-[380px]
-            bg-slate-900
-            rounded-3xl
-            overflow-hidden
-            border border-slate-800
-            hover:border-blue-500
-            hover:-translate-y-2
-            transition-all
-            duration-300
-          "
+    w-[380px]
+    flex-shrink-0
+    bg-slate-900
+    rounded-3xl
+    overflow-hidden
+    border border-slate-800
+    hover:border-blue-500
+    hover:-translate-y-2
+    transition-all
+    duration-300
+"
             >
               <img
                 src={project.image}
