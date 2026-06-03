@@ -2,7 +2,7 @@ import "./index.css";
 import "./App.css";
 import Home from "./pages/Home";
 
-export const backendUrl = "http://localhost:5000";
+export const backendUrl = "https://portfolio-backendurl.onrender.com";
 function App() {
   return <Home />;
 }
