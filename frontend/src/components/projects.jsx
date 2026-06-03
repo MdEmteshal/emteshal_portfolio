@@ -8,7 +8,7 @@ export default function Projects() {
       title: "India Test Series",
       image: testseries,
       domain: "indiatestseries.com",
-      tech: "React • Node.js • MongoDB",
+      tech: "React • Tailwind CSS • Nodejs+Expressjs • MongoDB",
       description:
         "Online mock test platform with authentication, test management and result analysis.",
     },
@@ -16,7 +16,7 @@ export default function Projects() {
       id: 2,
       title: "Portfolio Website",
       image: portfolioImage,
-      tech: "React • Tailwind CSS",
+      tech: "React • Tailwind CSS • Nodejs+Expressjs • MongoDB",
       description: "Personal portfolio website showcasing projects and skills.",
     },
     {
@@ -29,9 +29,9 @@ export default function Projects() {
     },
     {
       id: 4,
-      title: "SEO Dashboard",
+      title: "School Management System",
       image: testseries,
-      tech: "SEO • Analytics",
+      tech: "React • Tailwind CSS • Nodejs+Expressjs • MongoDB",
       description:
         "Dashboard for monitoring website performance and SEO metrics.",
     },
