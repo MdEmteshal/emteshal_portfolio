@@ -1,7 +1,8 @@
 import testseries from "../assets/testseries.png";
 import portfolioImage from "../../public/portfolio.png";
 import lmsImage from "../../public/lms.png";
-export default function Projects() {
+import abcSchoolImage from "../../public/abcSchool.png";
+export default function Projects(){
   const projects = [
     {
       id: 1,
@@ -38,7 +39,7 @@ export default function Projects() {
       {
       id: 5,
       title: "School Management System",
-      image: testseries,
+      image: abcSchoolImage,
       tech: "React • Tailwind CSS • Nodejs+Expressjs • MongoDB",
       description:
         "Developed a full-stack Learning Management System (LMS) that allows students to access courses, track progress, manage assignments, and enhance their online learning experience through a modern and responsive platform.",
