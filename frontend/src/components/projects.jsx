@@ -29,11 +29,19 @@ export default function Projects() {
     },
     {
       id: 4,
+      title: "LMS Project",
+      image: testseries,
+      tech: "React • Tailwind CSS • Nodejs+Expressjs • MongoDB",
+      description:
+        "Developed a full-stack Learning Management System (LMS) that allows students to access courses, track progress, manage assignments, and enhance their online learning experience through a modern and responsive platform.",
+    },
+      {
+      id: 5,
       title: "School Management System",
       image: testseries,
       tech: "React • Tailwind CSS • Nodejs+Expressjs • MongoDB",
       description:
-        "Dashboard for monitoring website performance and SEO metrics.",
+        "Developed a full-stack Learning Management System (LMS) that allows students to access courses, track progress, manage assignments, and enhance their online learning experience through a modern and responsive platform.",
     },
   ];
 
