@@ -19,26 +19,6 @@ export default function Skills() {
         <h2 className="text-4xl font-bold text-center mb-14">My Skills</h2>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {/* SEO Executive */}
-          <div className="bg-slate-900 p-8 rounded-3xl border border-slate-800 hover:border-blue-500 transition">
-            <h3 className="text-2xl font-semibold mb-8 text-blue-400">
-              SEO Executive
-            </h3>
-
-            <div className="grid grid-cols-2 gap-5">
-              <Skill icon={<FaSearch />} name="Keyword Research" />
-
-              <Skill icon={<SiGoogleanalytics />} name="Google Analytics" />
-
-              <Skill icon={<SiGooglesearchconsole />} name="Search Console" />
-
-              <Skill icon={<FaGoogle />} name="On-Page SEO" />
-
-              <Skill icon={<FaGlobe />} name="Technical SEO" />
-
-              <Skill icon={<FaChartLine />} name="AEO & SEO Strategy" />
-            </div>
-          </div>
           {/* Frontend */}
           <div className="bg-slate-900 p-8 rounded-3xl border border-slate-800 hover:border-blue-500 transition">
             <h3 className="text-2xl font-semibold mb-8 text-blue-400">
@@ -65,6 +45,26 @@ export default function Skills() {
               <Skill icon={<SiExpress />} name="Express.js" />
               <Skill icon={<SiMongodb />} name="MongoDB" />
               <Skill icon={<FaDatabase />} name="MySQL" />
+            </div>
+          </div>
+          {/* SEO Executive */}
+          <div className="bg-slate-900 p-8 rounded-3xl border border-slate-800 hover:border-blue-500 transition">
+            <h3 className="text-2xl font-semibold mb-8 text-blue-400">
+              SEO Executive
+            </h3>
+
+            <div className="grid grid-cols-2 gap-5">
+              <Skill icon={<FaSearch />} name="Keyword Research" />
+
+              <Skill icon={<SiGoogleanalytics />} name="Google Analytics" />
+
+              <Skill icon={<SiGooglesearchconsole />} name="Search Console" />
+
+              <Skill icon={<FaGoogle />} name="On-Page SEO" />
+
+              <Skill icon={<FaGlobe />} name="Technical SEO" />
+
+              <Skill icon={<FaChartLine />} name="AEO & SEO Strategy" />
             </div>
           </div>
         </div>
