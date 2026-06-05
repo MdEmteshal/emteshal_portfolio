@@ -8,14 +8,11 @@ export default function Hero() {
           <h1 className="text-6xl font-bold">Md Emteshal</h1>
 
           <h2 className="text-3xl text-slate-400 mt-3">
-            SEO Specialist & Web Developer
+             Web Developer & SEO Manager
           </h2>
 
           <p className="mt-6 text-slate-400">
-            Passionate SEO Specialist with experience in On-Page SEO, Technical
-            SEO, Keyword Research, Link Building, and Content Optimization. I
-            also develop modern, responsive web applications using React and
-            Node.js.
+           Full Stack MERN Developer focused on building scalable, user-friendly, and high-performance web applications. Experienced in React.js, Node.js, Express.js, MongoDB, REST APIs, deployment, and application optimization, with hands-on experience managing live production projects.
           </p>
 
           <div className="mt-8 flex gap-4">
