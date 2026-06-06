@@ -119,7 +119,6 @@ export default function Projects(){
                     View Project
                   </a>
                 </button>
-                </button>
               </div>
             </div>
           ))}
