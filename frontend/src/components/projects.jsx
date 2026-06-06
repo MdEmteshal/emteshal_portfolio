@@ -10,6 +10,7 @@ export default function Projects(){
       image: testseries,
       domain: "indiatestseries.com",
       tech: "React • Tailwind CSS • Nodejs+Expressjs • MongoDB",
+      link: "https://indiatestseries.com",
       description:
         "Online mock test platform with authentication, test management and result analysis.",
     },
@@ -18,6 +19,7 @@ export default function Projects(){
       title: "Portfolio Website",
       image: portfolioImage,
       tech: "React • Tailwind CSS • Nodejs+Expressjs • MongoDB",
+      link: "https://emteshal-portfolio.onrender.com",
       description: "Personal portfolio website showcasing projects and skills.",
     },
     {
@@ -25,6 +27,7 @@ export default function Projects(){
       title: "SEO Dashboard",
       image: testseries,
       tech: "SEO • Analytics",
+      link: "https://indiatestseries.com",
       description:
         "Dashboard for monitoring website performance and SEO metrics.",
     },
@@ -33,6 +36,7 @@ export default function Projects(){
       title: "LMS Project",
       image: lmsImage,
       tech: "React • Tailwind CSS • Nodejs+Expressjs • MongoDB",
+      link: "https://lms-emteshal.onrender.com",
       description:
         "Developed a full-stack Learning Management System (LMS) that allows students to access courses, track progress, manage assignments, and enhance their online learning experience through a modern and responsive platform.",
     },
@@ -41,6 +45,7 @@ export default function Projects(){
       title: "School Management System",
       image: abcSchoolImage,
       tech: "React • Tailwind CSS • Nodejs+Expressjs • MongoDB",
+        link: "https://abcschool.onrender.com",
       description:
         "Developed a full-stack Learning Management System (LMS) that allows students to access courses, track progress, manage assignments, and enhance their online learning experience through a modern and responsive platform.",
     },
@@ -105,7 +110,15 @@ export default function Projects(){
                 hover:bg-blue-700
               "
                 >
-                  View Project
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white no-underline"
+                  >
+                    View Project
+                  </a>
+                </button>
                 </button>
               </div>
             </div>
