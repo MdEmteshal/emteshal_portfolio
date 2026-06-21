@@ -6,32 +6,32 @@ export default function About() {
 
         <div className="bg-slate-900 p-8 rounded-2xl border border-slate-800">
           <p className="text-slate-400 leading-8">
-             I am an Information Technology undergraduate at MIT Muzaffarpur with
-             a strong interest in Full Stack Web Development and modern web
-             technologies. I enjoy building scalable, responsive, and user-friendly
-             web applications that solve real-world problems and deliver a seamless
-             user experience.
+            I have hands-on experience developing web applications and backend services
+            using Python, FastAPI, React.js, Node.js, Express.js, MongoDB, JavaScript,
+            HTML, CSS, and Tailwind CSS. My experience includes designing REST APIs,
+            database management, authentication systems, deployment workflows, and
+            building production-ready applications with a focus on performance,
+            scalability, and maintainability.
 
         <br />
         <br />
 
-            I have hands-on experience developing full-stack applications using
-            React.js, Node.js, Express.js, MongoDB, JavaScript, HTML, CSS, and
-            Tailwind CSS. I have worked on live production projects, designing
-            RESTful APIs, managing databases, implementing authentication systems,
-            and optimizing application performance through efficient backend
-            architecture and caching techniques.
+           I am actively expanding my expertise in Artificial Intelligence and modern AI
+           technologies, including LangChain, AI-powered applications, Retrieval-Augmented
+           Generation (RAG), vector databases, automation workflows, and intelligent
+           agent systems. I enjoy exploring how AI can be integrated into real-world
+           products to improve efficiency and user experience.
 
         <br />
         <br />
 
-            I am the founder and developer of Indiatestseries.com, where I built
-            and managed the complete platform from development to deployment. My
-            experience includes server management, GitHub-based workflows, Render
-            deployment, Cloudflare integration, custom domain configuration, and
-            maintaining production-ready applications. I continuously explore new
-            technologies and best practices to improve my development skills and
-            build high-quality software solutions.
+           I am the founder and developer of Indiatestseries.com, where I built and
+           managed the complete platform from development to deployment. My experience
+           includes GitHub-based workflows, cloud deployment, server management,
+           Cloudflare integration, custom domain configuration, and maintaining
+           production-ready applications. I continuously learn new technologies and
+           best practices to build innovative, scalable, and high-quality software
+           solutions.
           </p>
         </div>
       </div>
