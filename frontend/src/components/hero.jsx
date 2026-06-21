@@ -8,7 +8,7 @@ export default function Hero() {
           <h1 className="text-6xl font-bold">Md Emteshal</h1>
 
           <h2 className="text-3xl text-slate-400 mt-3">
-             Web Developer & SEO Manager
+            AI Engineer & Python Backend Developer
           </h2>
 
           <p className="mt-6 text-slate-400">
