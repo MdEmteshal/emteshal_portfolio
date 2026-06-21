@@ -12,7 +12,11 @@ export default function Hero() {
           </h2>
 
           <p className="mt-6 text-slate-400">
-           Full Stack MERN Developer focused on building scalable, user-friendly, and high-performance web applications. Experienced in React.js, Node.js, Express.js, MongoDB, REST APIs, deployment, and application optimization, with hands-on experience managing live production projects.
+           AI Engineer and Python Backend Developer with experience in
+            FastAPI, Python, MongoDB, REST APIs, LangChain, AI-powered
+            applications, and scalable backend systems. Passionate about
+            building intelligent solutions, automation workflows, and
+            high-performance web applications.
           </p>
 
           <div className="mt-8 flex gap-4">
